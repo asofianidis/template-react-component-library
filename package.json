@@ -1,5 +1,5 @@
 {
-  "name": "template-react-component-library",
+  "name": "@asofianidis/template-react-component-library",
   "version": "0.0.1",
   "description": "React Component Library",
   "main": "dist/cjs/index.js",
@@ -23,5 +23,8 @@
     "rollup-plugin-dts": "^6.1.0",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/asofianidis"
   }
 }
